@@ -102,4 +102,10 @@ public class Student {
         this.age = age;
     }
 
+    @Override
+    public String toString() {
+        return "Student{" + " id='" + getId() + "'" + ", name='" + getName() + "'" + ", email='" + getEmail() + "'"
+                + ", dob='" + getDob() + "'" + ", age='" + getAge() + "'" + "}";
+    }
+
 }
